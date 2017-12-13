@@ -1,8 +1,21 @@
 body {
-    background-color: lightgray;
+
 }
 
-.section-1 {
-    height: 250px;
-    background-color: white;
+#section-1 {
+    color: white;
+    height: 450px;
+    background-color: black;
+}
+
+#section-1 h1 {
+    font-size: 70px;
+}
+
+#section-2 {
+    height: 350px;
+}
+
+#section-3 {
+    background-color: lightgray;
 }
