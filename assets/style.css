@@ -17,5 +17,10 @@ body {
 }
 
 #section-3 {
+    height: 350px;
     background-color: lightgray;
+}
+
+footer {
+    height: 250px;
 }
