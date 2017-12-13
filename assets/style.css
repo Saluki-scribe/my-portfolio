@@ -1,3 +1,8 @@
-h1 {
-    color: red;
+body {
+    background-color: lightgray;
+}
+
+.section-1 {
+    height: 250px;
+    background-color: white;
 }
