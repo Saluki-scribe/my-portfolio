@@ -36,3 +36,19 @@ footer {
     width: 50%;
     float: right;
 }
+
+
+/*
+PORTFOLIO PAGE
+*/
+
+#portfolio {
+    background-color: gray;
+}
+
+#main-div {
+    height: 960px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
