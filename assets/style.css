@@ -1,15 +1,17 @@
 body {
-
+    
 }
 
 #section-1 {
     color: white;
     height: 450px;
     background-color: black;
+    text-align: center;
 }
 
 #section-1 h1 {
     font-size: 70px;
+    padding-top: 10%;
 }
 
 #section-2 {
