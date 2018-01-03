@@ -2,11 +2,17 @@ body {
     
 }
 
+.title {
+    text-align: center;
+    font-size: 42px;
+}
+
 #section-1 {
     color: white;
     height: 450px;
     background-color: black;
     text-align: center;
+    padding-top: 10px;
 }
 
 #section-1 h1 {
@@ -16,6 +22,7 @@ body {
 
 #section-2 {
     height: 350px;
+    padding-top: 1%;    
 }
 
 .skills {
@@ -27,10 +34,11 @@ body {
 #section-3 {
     height: 350px;
     background-color: lightgray;
+    padding-top: 1%;    
 }
 
 footer {
-    height: 250px;
+    height: 150px;
 }
 
 .left-col {
@@ -42,7 +50,6 @@ footer {
 .right-col {
     height: 100%;
     width: 50%;
-    padding-top: 1%;
     float: right;
 }
 
