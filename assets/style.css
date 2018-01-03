@@ -18,6 +18,11 @@ body {
     height: 350px;
 }
 
+.skills {
+    width: 40%;
+    float: left;
+}
+
 #section-3 {
     height: 350px;
     background-color: lightgray;
