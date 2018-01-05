@@ -30,7 +30,8 @@ SECTION 2
 
 #section-2 {
     height: 350px;
-    padding-top: 1%;    
+    padding-top: 1%;
+    margin: 1%;    
 }
 
 .left-col {
