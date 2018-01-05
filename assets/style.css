@@ -56,6 +56,15 @@ SECTION 2
     margin-left: 10%;
 }
 
+.badge {
+    height: 100px;
+    width: 100px;
+}
+
+#badge-row {
+    background: url("images/curls.png")
+}
+
 /*SECTION 3*/
 
 #section-3 {
