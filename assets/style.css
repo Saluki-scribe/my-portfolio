@@ -108,10 +108,16 @@ FOOTER
 
 footer {
     height: 150px;
+    background: url("images/curls.png");
 }
 
 #footer-content {
     text-align: center;
+    color: white;
+}
+
+#footer-content i {
+    color: white;    
 }
 
 
