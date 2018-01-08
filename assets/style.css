@@ -70,7 +70,11 @@ SECTION 2
 }
 
 #badge-row {
-    background: url("images/curls.png")
+    background: url("images/curls.png");
+}
+
+#myCarousel {
+    background: url("images/curls.png");
 }
 
 /*SECTION 3*/
