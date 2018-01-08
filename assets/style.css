@@ -91,6 +91,17 @@ SECTION 2
     border: 1px solid white;
 }
 
+form {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+fieldset {
+    padding-right: 40px;
+}
+
 /*
 FOOTER
 */
