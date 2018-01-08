@@ -106,6 +106,10 @@ fieldset {
     padding-bottom: 20px;
 }
 
+input[type=text], input[type=email] {
+    width: 300px;
+ }
+
 /*
 FOOTER
 */
