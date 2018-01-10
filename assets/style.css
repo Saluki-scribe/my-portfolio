@@ -144,13 +144,14 @@ FOOTER
 */
 
 footer {
-    height: 150px;
+    height: 175px;
     background: url("images/curls.png");
 }
 
 #footer-content {
     text-align: center;
     color: white;
+    padding-top: 2%;
 }
 
 #footer-content i {
