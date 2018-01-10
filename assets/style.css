@@ -34,8 +34,9 @@ SECTION 2
 */
 
 #section-2 {
-    height: 550px;
-    padding-top: 1%;
+    /*height: 550px;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin: 1%;    
 }
 
