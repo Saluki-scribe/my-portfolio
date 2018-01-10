@@ -80,9 +80,10 @@ SECTION 2
 /*SECTION 3*/
 
 #section-3 {
-    height: 650px;
+    /*height: 650px;*/
     background-color: lightgray;
-    padding-top: 1%;    
+    padding-top: 5%;    
+    padding-bottom: 5%;
 }
 
 #image-section {
