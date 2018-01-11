@@ -36,7 +36,7 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#about">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -58,7 +58,7 @@ ABOUT SECTION
         <div id="section-2" class="row">
             <div class="col-lg-6 col-lg-offset-3">
                 <img src="assets/images/piccropped.jpg" id="self-pic">     
-                <p style="font-size: 20px">I’m a full stack developer, web writer, and inbound marketer driven by a passion for e-learning and interactive storytelling. Some of my other favorite things: writing and reading speculative fiction, video games, and random online courses.</p> 
+                <p>I’m a full stack developer, web writer, and inbound marketer with a special passion for adult education and interactive storytelling. Some of my other favorite things: writing and reading speculative fiction, gaming, and studying everything from Russian culture and history to Android development to Kung Fu.</p> 
             </div>
 
         </div> <!--END SECTION-2 ID-->
@@ -116,9 +116,9 @@ ABOUT SECTION
 
 </div> <!--END myCarousel-->
 
-
-
-
+<!--*****************
+PORTFOLIO SECTION
+*****************-->
 
         <a name="portfolio"></a>
         <div id="section-3" class="row">
@@ -126,16 +126,16 @@ ABOUT SECTION
             <h1 class="title">Portfolio</h1>
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <img class="p-img" src="assets/images/p-going-out.jpg">
-                    <img class="p-img" src="assets/images/p-haunted-gif.jpg">
-                    <img class="p-img" src="assets/images/p-liri.jpg">  
+                    <img class="p-img" src="assets/images/p-going-out2.jpg">
+                    <img class="p-img" src="assets/images/p-haunted.jpg">
+                    <img class="p-img" src="assets/images/p-liri2.jpg">  
                 </div>
             </div>
             <div class="row">           
                 <div class="col-lg-10 col-lg-offset-1">
                     <img class="p-img" src="assets/images/p-parasite.jpg">
-                    <img class="p-img" src="assets/images/p-evil-r.jpg">
-                    <img class="p-img" src="assets/images/p-were-r.jpg">  
+                    <img class="p-img" src="assets/images/p-evil3.jpg">
+                    <img class="p-img" src="assets/images/p-were.jpg">  
                 </div>         
             </div>
             <!--<h3><a href="#" target="blank">View More Projects</a></h3>-->
@@ -184,6 +184,15 @@ ABOUT SECTION
             <p>&copy; Tara Nelson 2018</p>            
         </div>
     </footer>
+
+    <script>
+        $(document).ready(function() {
+            $(".p-img").mouseover(function() {
+                $(this).hide("selected");
+            });
+        });
+        
+    </script>
 
      <!-- Bootstrap core JavaScript
     ================================================== -->
