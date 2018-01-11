@@ -125,17 +125,43 @@ PORTFOLIO SECTION
                 
             <h1 class="title">Portfolio</h1>
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <img class="p-img" src="assets/images/p-going-out2.jpg">
-                    <img class="p-img" src="assets/images/p-haunted.jpg">
-                    <img class="p-img" src="assets/images/p-liri2.jpg">  
+                <div class="col-lg-10 col-lg-offset-1" id="portfolio-col-1">
+                    
+                    <div class="portfolio-col">
+                        <h2>Going Out App</h2>
+                        <img class="p-img" src="assets/images/p-going-out2.jpg">
+                    </div>
+                    
+                    <div class="portfolio-col">
+                        <h2>Going Out App</h2>
+                        <img class="p-img" src="assets/images/p-haunted.jpg">
+                    </div>
+
+                    <div class="portfolio-col">
+                        <h2>Going Out App</h2>
+                        <img class="p-img" src="assets/images/p-liri2.jpg">
+                    </div>
+
                 </div>
             </div>
+
             <div class="row">           
-                <div class="col-lg-10 col-lg-offset-1">
-                    <img class="p-img" src="assets/images/p-parasite.jpg">
-                    <img class="p-img" src="assets/images/p-evil3.jpg">
-                    <img class="p-img" src="assets/images/p-were.jpg">  
+                <div class="col-lg-10 col-lg-offset-1" id="portfolio-col-2">
+                    
+                    <div class="portfolio-col">
+                        <h2>Going Out App</h2>
+                        <img class="p-img" src="assets/images/p-parasite.jpg">
+                    </div>
+
+                    <div class="portfolio-col">
+                        <h2>Going Out App</h2>
+                        <img class="p-img" src="assets/images/p-evil3.jpg">
+                    </div>
+
+                    <div class="portfolio-col">
+                        <h2>Going Out App</h2>
+                        <img class="p-img" src="assets/images/p-were.jpg">  
+                    </div>
                 </div>         
             </div>
             <!--<h3><a href="#" target="blank">View More Projects</a></h3>-->
@@ -188,7 +214,9 @@ PORTFOLIO SECTION
     <script>
         $(document).ready(function() {
             $(".p-img").mouseover(function() {
-                $(this).hide("selected");
+                $(this).css("opacity", ".6");
+            }).mouseout(function() {
+                $(this).css("opacity", ".3")
             });
         });
         
