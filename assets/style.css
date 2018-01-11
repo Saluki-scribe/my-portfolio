@@ -50,6 +50,12 @@ SECTION 2
     float: left;
 }
 
+.badge-row img {
+    height: 150px;
+    width: 300px; 
+    border: none;
+}
+
 #section-2 img {
     width: 275px;
     height: 300px;
