@@ -45,10 +45,11 @@
     </nav>
 
     <div class="container-fluid">
-            <a name="about"></a>
+            
         <div id="section-1" class="row">
             <h1>Hi. I'm Tara</h1>
             <h4>Development / Copywriting / Inbound</h4>
+            <a name="about"></a>
         </div>
 
 <!-- *****************
@@ -58,7 +59,7 @@ ABOUT SECTION
         <div id="section-2" class="row">
             <div class="col-lg-6 col-lg-offset-3">
                 <img src="assets/images/piccropped.jpg" id="self-pic">     
-                <p>I’m a full stack developer, web writer, and inbound marketer with a special passion for adult education and interactive storytelling. Some of my other favorite things: writing and reading speculative fiction, gaming, and studying everything from Russian culture and history to Android development to Kung Fu.</p> 
+                <p>I’m a full stack developer, web writer, and inbound marketer with a special passion for adult education and interactive storytelling. <br><br> Some of my other favorite things: writing and reading speculative fiction, gaming, and studying everything from Russian history to Android development to Kung Fu.</p> 
             </div>
 
         </div> <!--END SECTION-2 ID-->
@@ -213,11 +214,19 @@ PORTFOLIO SECTION
 
     <script>
         $(document).ready(function() {
+
             $(".p-img").mouseover(function() {
                 $(this).css("opacity", ".6");
             }).mouseout(function() {
-                $(this).css("opacity", ".3")
+                $(this).css("opacity", ".3");
             });
+
+            $("i").mouseover(function() {
+                $(this).css("color", "lightgray");
+            }).mouseout(function() {
+                $(this).css("color", "white");
+            })
+
         });
         
     </script>
