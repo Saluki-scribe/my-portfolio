@@ -2,6 +2,10 @@ body {
     
 }
 
+p {
+    font-size: 20px;
+}
+
 i {
     margin: 10px;
     color: black;
@@ -47,11 +51,11 @@ SECTION 2
 }
 
 #section-2 img {
-    width: 350px;
-    height: 400px;
+    width: 275px;
+    height: 300px;
     border: .5px solid #272727;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     margin-right: 2%;
     float: left;
 }
